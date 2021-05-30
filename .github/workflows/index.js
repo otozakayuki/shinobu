@@ -158,7 +158,7 @@ client.on('message', message => {
 
 	}
 
-	if (message.content === '${prefix}emoji') {
+	if (message.content === `${prefix}emoji`) {
 
 		const reactionEmoji = message.guild.emojis.cache.find(
 
